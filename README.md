@@ -2,7 +2,7 @@
 Uses [MinVar](https://github.com/ozagordi/MinVar) and [bamToFreq](https://github.com/matdoering/bamToFreq) to convert next-generation sequencing reads (fastq/fastq.gz) to frequency files (csv).
 
 ## Usage
-This program is intended for use via Docker only. It can be used in the following way:
+This program is intended for use via [Docker only](hub.docker.com/mdoering88/fastqtofreq). It can be used in the following way:
 ```
 docker run -v <bamFolder>:/data/ mdoering88/fastqtofreq:latest /data/
 
